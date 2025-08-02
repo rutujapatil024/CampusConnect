@@ -1,0 +1,60 @@
+.register-container {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 40px 30px;
+  background: #f9fafb;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  font-family: 'Roboto', sans-serif;
+}
+
+.register-title {
+  color: #1a3579;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.MuiTextField-root {
+  background: #ffffff;
+  border-radius: 6px;
+}
+
+.MuiInputBase-root {
+  font-size: 0.95rem;
+}
+
+.MuiInputLabel-root {
+  color: #1a3579;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: #cbd5e1;
+}
+
+.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #1a3579;
+}
+
+.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #fbbf24 !important; /* yellow border focus */
+}
+
+.MuiButton-containedPrimary {
+  background-color: #1a3579 !important;
+  color: #fff !important;
+  text-transform: none;
+  font-weight: 600;
+  padding: 10px 24px;
+  border-radius: 8px;
+}
+
+.MuiButton-containedPrimary:hover {
+  background-color: #162c63 !important;
+}
+
+@media (max-width: 600px) {
+  .register-container {
+    padding: 30px 20px;
+  }
+}

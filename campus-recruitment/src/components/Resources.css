@@ -1,0 +1,47 @@
+.resources-container {
+  padding: 30px;
+  background-color: #fdfdfd;
+  min-height: 100vh;
+}
+
+.resource-card {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.resource-section {
+  margin-bottom: 20px;
+}
+
+.resource-heading {
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.resource-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.resource-link {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #1976d2;
+  text-decoration: none;
+}
+
+.resource-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .resources-container {
+    padding: 16px;
+  }
+
+  .resource-link {
+    font-size: 14px;
+  }
+}

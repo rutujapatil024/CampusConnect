@@ -1,0 +1,34 @@
+.dashboard-container {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.dashboard-title {
+  font-weight: bold;
+  color: #1a3579;
+}
+
+.dashboard-email {
+  color: #475569;
+  margin-bottom: 20px;
+}
+
+.profile-section {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f8fafc;
+  border: 1px solid #e0e0e0;
+}
+
+.section-card {
+  padding: 20px;
+  background-color: #f1f5f9;
+  border-radius: 10px;
+}
+.section-card:hover {
+  box-shadow: 0 4px 6px #1c2f5f;
+  transform: translateY(-2px);
+  cursor: pointer;
+}

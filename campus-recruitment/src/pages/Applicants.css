@@ -1,0 +1,34 @@
+/* Applicants.css */
+.applicants-container {
+  padding: 16px;
+}
+
+.applicants-title {
+  margin-bottom: 16px;
+}
+
+.applicant-card {
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.avatar-box {
+  display: flex;
+  justify-content: center;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+}
+
+@media (max-width: 600px) {
+  .button-group {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+}

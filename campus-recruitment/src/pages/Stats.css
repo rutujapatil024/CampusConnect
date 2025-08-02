@@ -1,0 +1,63 @@
+.stats-container {
+  background: #f9fafb;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.stats-title {
+  font-weight: bold;
+  color: #1a3579;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.stats-grid {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.stat-card {
+  padding: 60px 40px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.stat-value {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a3579;
+}
+
+.stat-label {
+  color: #4b5563;
+  margin-top: 8px;
+  font-size: 0.95rem;
+}
+
+/* ✅ Mobile responsive styles */
+@media (max-width: 600px) {
+  .stats-container {
+    padding: 40px 16px;
+  }
+
+  .stats-title {
+    font-size: 1.5rem;
+  }
+
+  .stat-card {
+    padding: 40px 20px;
+  }
+
+  .stat-value {
+    font-size: 1.6rem;
+  }
+
+  .stat-label {
+    font-size: 0.9rem;
+  }
+}

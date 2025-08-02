@@ -1,0 +1,60 @@
+/* Ensure full height layout */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Main container below AppBar */
+.layout-content {
+  margin-top: 64px; /* height of MUI AppBar */
+  padding: 24px;
+  box-sizing: border-box;
+}
+.desktop-links {
+  display: flex;
+  gap: 16px;
+}
+.desktop-links a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Responsive padding for small screens */
+@media (max-width: 768px) {
+  .layout-content {
+    padding: 16px;
+    margin-top: 56px; /* AppBar is shorter on mobile */
+  }
+}
+
+/* Navigation drawer overrides (optional) */
+.MuiDrawer-paper {
+  width: 250px;
+  padding-top: 10px;
+}
+
+/* Responsive text scaling */
+h1, h2, h3 {
+  line-height: 1.2;
+  word-break: break-word;
+}
+
+p {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Utility for spacing sections */
+.section {
+  margin-bottom: 40px;
+}
+
+/* Responsive image sizing */
+img {
+  max-width: 100%;
+  height: auto;
+}
